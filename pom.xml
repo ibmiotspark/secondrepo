@@ -31,7 +31,7 @@
           <applicationName>cicd</applicationName>
           <environment>Dev</environment> 
           <businessGroup>IBM</businessGroup>
-          <region>USEast(Ohio)</region>
+          <region>us-east-1</region>
           <uri>https://anypoint.mulesoft.com</uri> 
           <workerType>Micro</workerType>
           <workers>1</workers>
