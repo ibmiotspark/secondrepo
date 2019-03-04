@@ -27,7 +27,7 @@
           <muleVersion>3.9.1</muleVersion> 
           <username>parthureddy</username> 
           <password>Parthu@358</password> 
-          <applicationName>trail</applicationName>
+          <applicationName>cicd</applicationName>
           <environment>Sandbox</environment> 
           <businessGroup>IBM</businessGroup>
           <region>USEast(Ohio)</region>
@@ -46,7 +46,11 @@
         </executions>
       </plugin>
       
-      
+      <plugin>
+  <groupId>org.mule.tools.maven</groupId>
+  <artifactId>mule-maven-plugin</artifactId>
+  <version>2.2.1</version>
+</plugin>
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-app-maven-plugin</artifactId>
