@@ -28,7 +28,7 @@
           <username>parthureddy</username> 
           <password>Parthu@358</password> 
           <applicationName>cicd</applicationName>
-          <environment>Sandbox</environment> 
+          <environment>Dev</environment> 
           <businessGroup>IBM</businessGroup>
           <region>USEast(Ohio)</region>
           <uri>https://anypoint.mulesoft.com</uri> 
