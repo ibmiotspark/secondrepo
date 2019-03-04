@@ -18,6 +18,35 @@
 
 	<build>
 		<plugins>
+		
+		<plugin>
+        <groupId>org.mule.tools.maven</groupId>
+        <artifactId>mule-maven-plugin</artifactId>
+        <configuration>
+          <deploymentType>cloudhub</deploymentType>
+          <muleVersion>3.9.1</muleVersion> 
+          <username>parthureddy</username> 
+          <password>Parthu@358</password> 
+          <applicationName>trail</applicationName>
+          <environment>Sandbox</environment> 
+          <businessGroup>IBM</businessGroup>
+          <region>USEast(Ohio)</region>
+          <uri>https://anypoint.mulesoft.com</uri> 
+          <workerType>Micro</workerType>
+          <workers>1</workers>
+        </configuration>
+        <executions>
+          <execution>
+            <id>deploy</id>
+            <phase>deploy</phase>
+            <goals>
+              <goal>deploy</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      
+      
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-app-maven-plugin</artifactId>
