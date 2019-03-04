@@ -28,7 +28,7 @@
           <muleVersion>3.9.1</muleVersion> 
           <username>parthureddy</username> 
           <password>Parthu@358</password> 
-          <applicationName>cicd</applicationName>
+          <applicationName>cicdravichandra</applicationName>
           <environment>Sandbox</environment> 
           <businessGroup>personal</businessGroup>
           <region>us-east-1</region>
