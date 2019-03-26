@@ -28,7 +28,7 @@
           <muleVersion>3.9.1</muleVersion> 
           <username>parthureddy358</username> 
           <password>Parthu@358</password> 
-          <applicationName>ravichandracicd</applicationName>
+          <applicationName>test1-application</applicationName>
           <environment>Sandbox</environment> 
           <businessGroup>IBM</businessGroup>
           <region>us-east-1</region>
