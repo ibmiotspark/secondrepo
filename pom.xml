@@ -28,7 +28,7 @@
           <muleVersion>3.9.1</muleVersion> 
           <username>malli_mule</username> 
           <password>Malli123</password> 
-          <applicationName>cicdravichandra</applicationName>
+          <applicationName>ravichandracicd</applicationName>
           <environment>Sandbox</environment> 
           <businessGroup>abc</businessGroup>
           <region>us-east-1</region>
