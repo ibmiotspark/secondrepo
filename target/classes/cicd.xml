@@ -11,6 +11,6 @@ http://www.springframework.org/schema/context http://www.springframework.org/sch
     <flow name="cicdFlow">
         <http:listener config-ref="HTTP_Listener_Configuration" path="/" doc:name="HTTP"/>
         <set-payload value="HI Hello Namaste" doc:name="Set Payload"/>
-        <logger message="test" level="INFO" doc:name="Logger"/>
+        <logger message="#[payload]" level="INFO" doc:name="Logger"/>
     </flow>
 </mule>
