@@ -12,6 +12,5 @@ http://www.springframework.org/schema/context http://www.springframework.org/sch
         <http:listener config-ref="HTTP_Listener_Configuration" path="/" doc:name="HTTP"/>
         <set-payload value="HI Hello Namaste" doc:name="Set Payload"/>
         <logger message="#[payload]" level="INFO" doc:name="Logger"/>
-        <logger message="hi" level="INFO" doc:name="Logger"/>
     </flow>
 </mule>
