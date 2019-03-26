@@ -26,11 +26,11 @@
         <configuration>
           <deploymentType>cloudhub</deploymentType>
           <muleVersion>3.9.1</muleVersion> 
-          <username>malli_mule</username> 
-          <password>Malli123</password> 
+          <username>parthureddy358</username> 
+          <password>Parthu@358</password> 
           <applicationName>ravichandracicd</applicationName>
           <environment>Sandbox</environment> 
-          <businessGroup>abc</businessGroup>
+          <businessGroup>IBM</businessGroup>
           <region>us-east-1</region>
           <uri>https://anypoint.mulesoft.com</uri> 
           <workerType>Micro</workerType>
